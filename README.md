@@ -17,7 +17,7 @@ Once in a chat room, you can use the `/fri exit` command to exit the chat room (
 ### File paths
 All* [fri] files are stored in the `/etc/fri/`
 
-*the uninstall file (`/etc/fri-uninstall`) and the [fri] install dependencies (in the git clone directory) are not located in this directory.
+*the uninstall file (`/etc/fri-uninstall.sh`) and the [fri] install dependencies (in the git clone directory) are not located in this directory.
 
 
 [fri] 2.0 coming soon...
