@@ -9,13 +9,13 @@
 ### Parameters
 `fri -c` or `fri --create` will create a new chat room.
 `fri -j (roomcode)` or `fri --join (roomcode)` will join a chat room with room code `(roomcode)`.
-To uninstall [fri] you can use `sudo /etc/fri-uninstall.sh`
+To uninstall [fri] you can use `sudo /etc/fri-uninstall.sh`.
 
 ### Commands
 Once in a chat room, you can use the `/fri exit` command to exit the chat room (if you are a user) or to exit and completely remove the chat room (if you are the chat room administrator).
 
 ### File paths
-All* [fri] files are stored in the `/etc/fri/`
+All* [fri] files are stored in the `/etc/fri/` directory.
 
 *the uninstall file (`/etc/fri-uninstall.sh`) and the [fri] install dependencies (in the git clone directory) are not located in this directory.
 
