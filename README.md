@@ -20,4 +20,4 @@ All* [fri] files are stored in the `/etc/fri/` directory.
 *the uninstall file (`/etc/fri-uninstall.sh`) and the [fri] install dependencies (in the git clone directory) are not located in this directory.
 
 
-[fri] 2.0 coming soon...
+[fri] 1.0 - Made By 𝚂𝙰𝚂𝙺𝚈𝙾
