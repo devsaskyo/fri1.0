@@ -4,7 +4,7 @@
 ## How to install
 ### To install, run this on your linux server:
 `output=$(ls ./fri1.0 || echo "nofile"); if [[ "$output" != "nofile" ]]; then echo "error"; else; git clone https://github.com/devsaskyo/fri1.0.git; cd fri1.0; chmod +x fri_1.0_setup.sh; sudo ./fri_1.0_setup.sh; cd ..; rm -rf ./fri1.0; fi`
-This is the safest way to install [fri]. If you wish to keep the [fri] install resources after setup, please [run this instead]().
+This is the safest way to install [fri]. If you wish to keep the [fri] install resources after setup, please [run this instead](https://github.com/devsaskyo/fri1.0/blob/main/README.md#simple-install).
 
 ## How to use
 ### Parameters
