@@ -37,7 +37,7 @@ Every chat room is stored as a `.friroom` file in the `/etc/fri/room/` directory
 Note: **While in a chat room, do NOT send any sensitive information (unless you fully understand the risks\*).**
 <br>
 <br>
-*If you do not want a user/users on your server to have access to chat room messages, please modify the permissions of the user(s) and/or the `/etc/fri/room` directory. For example, you can use `chmod 600 /etc/fri/room` to restrict non-superusers read permissions for all chat rooms.
+*If you do NOT want a user/users on your server to have access to chat room messages, please modify the permissions of the user(s) and/or the `/etc/fri/room` directory. For example, you can use `chmod 600 /etc/fri/room` to restrict non-superusers read permissions for all chat rooms.
 
 ### File paths
 All* [fri] files are stored in the `/etc/fri/` directory.
