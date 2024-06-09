@@ -3,7 +3,7 @@
 
 ## How to install
 ### To install, run this on your linux server:
-`git clone https://github.com/devsaskyo/fri1.0.git; cd fri1.0; chmod +x fri_1.0_setup.sh; sudo ./fri_1.0_setup.sh;`
+`output=$(ls ./fri1.0 || echo "nofile"); if [[ "$output" != "nofile" ]]; then echo "error"; else; git clone https://github.com/devsaskyo/fri1.0.git; cd fri1.0; chmod +x fri_1.0_setup.sh; sudo ./fri_1.0_setup.sh; cd ..; rm -rf ./fri1.0; fi`
 
 ## How to use
 ### Parameters
@@ -19,5 +19,7 @@ All* [fri] files are stored in the `/etc/fri/` directory.
 
 *the uninstall file (`/etc/fri-uninstall.sh`) and the [fri] install dependencies (in the git clone directory) are not located in this directory.
 
+Install without deleting install files after setting up:
+`git clone https://github.com/devsaskyo/fri1.0.git; cd fri1.0; chmod +x fri_1.0_setup.sh; sudo ./fri_1.0_setup.sh;`
 
 [fri] 1.0 - Made By 𝚂𝙰𝚂𝙺𝚈𝙾
