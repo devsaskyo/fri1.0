@@ -32,4 +32,9 @@ All* [fri] files are stored in the `/etc/fri/` directory.
 
 *the uninstall file (`/etc/fri-uninstall.sh`) and the [fri] install resources (in the git clone directory) are not located in this directory.
 
+### Uninstall
+To uninstall [fri], use `sudo /etc/fri-uninstall.sh`.
+<br>
+Note: This removes the whole `/etc/fri` directory and these files: `/usr/bin/fri`, `/usr/bin/friends`, `/etc/fri-uninstall.sh`. Uninstalling [fri] does NOT remove the install resources.
+
 [fri] 1.0 - Made By 𝚂𝙰𝚂𝙺𝚈𝙾
