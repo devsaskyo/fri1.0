@@ -6,7 +6,7 @@
 `if [ -e ./fri1.0 ]; then echo "error"; else git clone https://github.com/devsaskyo/fri1.0.git; cd fri1.0; chmod +x fri_1.0_setup.sh; sudo ./fri_1.0_setup.sh; cd ..; rm -rf ./fri1.0; fi`
 <br>
 <br>
-**^^ This ^^ is the safest way to install [fri].**
+**This is the safest way to install [fri].**
 <br>
 If you get the error message, it means there is a 'fri1.0' directory already present in your current working directory. Change your working directory, and try again.
 <br>
