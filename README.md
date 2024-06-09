@@ -6,7 +6,10 @@
 `output=$(ls ./fri1.0 || echo "nofile"); if [[ "$output" != "nofile" ]]; then echo "error"; else; git clone https://github.com/devsaskyo/fri1.0.git; cd fri1.0; chmod +x fri_1.0_setup.sh; sudo ./fri_1.0_setup.sh; cd ..; rm -rf ./fri1.0; fi`
 <br>
 <br>
-This is the safest way to install [fri]. If you wish to keep the [fri] install resources after setup, please [run this instead](https://github.com/devsaskyo/fri1.0/blob/main/README.md#simple-install).
+**This is the safest way to install [fri]. If you wish to keep the [fri] install resources after setup, please run this instead:**
+<br>
+Install without deleting install files after setting up:<br>
+`git clone https://github.com/devsaskyo/fri1.0.git; cd fri1.0; chmod +x fri_1.0_setup.sh; sudo ./fri_1.0_setup.sh;`
 
 ## How to use
 ### Parameters
@@ -21,9 +24,5 @@ Once in a chat room, you can use the `/fri exit` command to exit the chat room (
 All* [fri] files are stored in the `/etc/fri/` directory.
 
 *the uninstall file (`/etc/fri-uninstall.sh`) and the [fri] install resources (in the git clone directory) are not located in this directory.
-
-### Simple Install
-Install without deleting install files after setting up:
-`git clone https://github.com/devsaskyo/fri1.0.git; cd fri1.0; chmod +x fri_1.0_setup.sh; sudo ./fri_1.0_setup.sh;`
 
 [fri] 1.0 - Made By 𝚂𝙰𝚂𝙺𝚈𝙾
