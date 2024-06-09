@@ -10,6 +10,8 @@
 <br>
 If you get the error message, it means there is a 'fri1.0' directory already present in your current working directory. Change your working directory, and try again.
 <br>
+Note: You need superuser permissions to install [fri].
+<br>
 <br>
 **If you wish to keep the [fri] install resources after setup, please run this instead:**
 <br>
