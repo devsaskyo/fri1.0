@@ -10,6 +10,7 @@
 <br>
 If you get the error message, it means there is a 'fri1.0' directory already present in your current working directory. Change your working directory, and try again.
 <br>
+<br>
 **If you wish to keep the [fri] install resources after setup, please run this instead:**
 <br>
 Install without deleting install files after setting up:<br>
