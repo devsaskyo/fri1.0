@@ -24,7 +24,7 @@ Install without deleting install files after setting up:<br>
 <br>
 `fri -j (roomcode)` or `fri --join (roomcode)` will join a chat room with room code `(roomcode)`.
 <br>
-You may also use the `friends`, which [fri] uses to display general info.
+You may also use the `friends` command, which [fri] uses to display general info.
 
 ### Commands
 Once in a chat room, you can use the `/fri exit` command to exit the chat room (if you are a user) or to exit and completely remove the chat room (if you are the chat room administrator).
