@@ -6,6 +6,12 @@ if [ $EUID -ne 0 ]; then
     exit 1
 fi
 
+insfile="/etc/fri/fri1.0.sh"
+if [ -e $insfile ]; then
+  echo "Error: [fri] version 1.0 is already installed."
+  exit 1
+fi
+
 echo "Installing [fri] version 1.0..."
 touch /usr/bin/fri || echo "error: could not execute (line 10)"
 chmod +x /usr/bin/fri || echo "error: could not execute (line 11)"
