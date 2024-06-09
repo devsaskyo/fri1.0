@@ -24,6 +24,8 @@ Install without deleting install files after setting up:<br>
 <br>
 `fri -j (roomcode)` or `fri --join (roomcode)` will join a chat room with room code `(roomcode)`.
 <br>
+`fri --help` will show you available parameters.
+<br>
 You may also use the `friends` command, which [fri] uses to display general info.
 
 ### Commands
