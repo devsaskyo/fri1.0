@@ -6,7 +6,11 @@
 `output=$(ls ./fri1.0 || echo "nofile"); if [[ "$output" != "nofile" ]]; then echo "error"; else; git clone https://github.com/devsaskyo/fri1.0.git; cd fri1.0; chmod +x fri_1.0_setup.sh; sudo ./fri_1.0_setup.sh; cd ..; rm -rf ./fri1.0; fi`
 <br>
 <br>
-**^^ This ^^ is the safest way to install [fri].<br>If you wish to keep the [fri] install resources after setup, please run this instead:**
+**^^ This ^^ is the safest way to install [fri].**
+<br>
+If you get the error message, it means there is a 'fri1.0' directory already present in your current working directory. Change your working directory, and try again.
+<br>
+**If you wish to keep the [fri] install resources after setup, please run this instead:**
 <br>
 Install without deleting install files after setting up:<br>
 `git clone https://github.com/devsaskyo/fri1.0.git; cd fri1.0; chmod +x fri_1.0_setup.sh; sudo ./fri_1.0_setup.sh;`
