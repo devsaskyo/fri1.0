@@ -29,7 +29,7 @@ Install without deleting install files after setting up:<br>
 You may also use the `friends` command, which [fri] uses to display general info.
 
 ### Commands
-Once in a chat room, you can use the `/fri exit` command to exit the chat room (if you are a user) or to exit and completely remove the chat room (if you are the chat room administrator).
+Once in a chat room, you can use the `/fri exit` command to exit the chat room (if you are a chat room user) or to exit and completely remove the chat room (if you are the chat room administrator).
 
 ### File paths
 All* [fri] files are stored in the `/etc/fri/` directory.
